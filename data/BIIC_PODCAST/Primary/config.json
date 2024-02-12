@@ -1,0 +1,15 @@
+{
+    "data_split_type":{
+        "train": "Train",
+        "dev": "Development", 
+        "test": "Test"
+    },
+    "categorical":{
+        "emo_type": ["angry", "sad", "disgust", "contempt", "fear", "neutral", "surprise", "happy"]
+    },
+    "dimensional":{
+        "max_score": 7,
+        "min_score": 1
+    },
+    "description": "MSP-Podcast v1.10 - 8 classes"
+}

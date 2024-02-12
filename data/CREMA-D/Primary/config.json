@@ -1,0 +1,15 @@
+{
+    "data_split_type":{
+        "train": "Train",
+        "dev": "Development", 
+        "test": "Test"
+    },
+    "categorical":{
+        "emo_type": ["angry", "sad", "disgust", "fear", "neutral", "happy"]
+    },
+    "dimensional":{
+        "max_score": 5,
+        "min_score": 1
+    },
+    "description": "CREMA-D corpus - 6 classes"
+}

@@ -1,0 +1,16 @@
+{
+    "data_split_type":{
+        "train": "Train",
+        "dev": "Development", 
+        "test": "Test"
+    },
+    "categorical":{
+        "emo_type": ["depressed", "frustrated", "angry", "sad", "disgust", "excited", "fear", "neutral", "surprise", "happy"]
+    },
+    "dimensional":{
+        "max_score": 5,
+        "min_score": 1,
+        "flip_aro": "True"
+    },
+    "description": "IMPROV corpus - 10 classes"
+}

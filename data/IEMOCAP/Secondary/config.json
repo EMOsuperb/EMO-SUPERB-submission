@@ -1,0 +1,11 @@
+{
+    "data_split_type":{
+        "train": "Train",
+        "dev": "Development", 
+        "test": "Test"
+    },
+    "categorical":{
+        "emo_type": ["frustrated", "angry", "sad", "disgust", "excited", "fear", "neutral", "surprise", "happy"]
+    },
+    "description": "IEMOCAP corpus - 9 class"
+}
