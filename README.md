@@ -19,3 +19,5 @@
    * [NNIME](https://biic.ee.nthu.edu.tw/open_resource_detail.php?id=61)
    * [BIIC_PODCAST](https://biic.ee.nthu.edu.tw/open_resource_detail.php?id=63)
 # Train and Evaluation
+
+## Train (```.sh```)
