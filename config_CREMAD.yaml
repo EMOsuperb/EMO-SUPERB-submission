@@ -1,0 +1,55 @@
+runner:
+  total_steps: 15510 #30000  #181
+  gradient_clipping: 1
+  gradient_accumulate_steps: 1
+
+  log_step: 141
+  eval_step: 141
+  save_step: 141
+  max_keep: 1
+  eval_dataloaders:
+    - dev
+    - test
+
+optimizer:
+  name: TorchOptim
+  torch_optim_name: AdamW
+  lr: 1.0e-4
+
+# comment the whole scheduler config block
+# to disable learning rate scheduling
+#scheduler:
+#   name: cosine_schedule_with_warmup
+#   num_warmup_steps: 3000
+
+downstream_expert:
+  datarc:
+    #root: ./downstream/emotion/meta_data #./data/IEMOCAP/Audios #audios
+    #meta_data: ./downstream/emotion/meta_data #./data/IEMOCAP/labels_consensus_1.csv #label
+    root: ./data/
+    test_fold: fold1
+    corpus: CREMA-D #IMPROV #CREMA-D #IEMOCAP #
+    p_or_s: Primary #Secondary # Primary
+    pre_load: True
+    train_batch_size: 32
+    eval_batch_size: 32
+    num_workers: 6
+    #valid_ratio: 0.2
+    #audios: ./data/{corpus}/Audios
+    #labels: ./data/{corpus}/labels_consensus_{test_fold}.csv
+    #config: ./data/{corpus}/config.json
+
+  modelrc:
+    projector_dim: 256
+    select: UtteranceLevel
+
+    UtteranceLevel:
+      pooling: MeanPooling
+
+    DeepModel:
+      model_type: CNNSelfAttention
+      hidden_dim: 80
+      kernel_size: 5
+      padding: 2
+      pooling: 5
+      dropout: 0.4
