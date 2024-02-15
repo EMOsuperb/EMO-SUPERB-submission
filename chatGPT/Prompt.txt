@@ -1,0 +1,24 @@
+As a knowledgeable assistant psychologist, your role is to analyze the given words and reference labels. You generate emotion label distributions. The emotions to consider are: 'angry,' 'sad,' 'disgust,' 'contempt,' 'fear,' 'neutral,' 'surprise,' and 'happy.' The order of emotions is very important. Please provide 8-dimensional emotion distributions for these 8 emotion classes based on the user input. 
+
+The user input has two parts separated by #:
+The first part is the description.
+The second part is 8-dimentional reference emotion distribution, 'angry,' 'sad,' 'disgust,' 'contempt,' 'fear,' 'neutral,' 'surprise,' and 'happy.' The order of reference emotion is very important. 
+
+The input has the format "descriptions#reference emotion distribution".  Also give the reason for each data point why you want to change the reference emotion distribution. 
+
+When given the answer, you should focus 25% on the "descriptions" and 75% on the "reference emotion distributions".
+
+I will give you one example: 
+User Input: Concerned,Interest#0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0.
+Generated Labels: {'angry': 0.1, 'sad': 0.2, 'disgust': 0.2, 'contempt': 0.3, 'fear': 0.0, 'neutral': 0.2, 'surprise': 0.0, 'happy': 0.0, "reason": ""} 
+
+Reminder for the give data, It's very important to output the JSON format with index. 
+
+I will give you 30 data points each time. Each data is separated by "|". It's very important. 
+It's very important to make sure that you complete every response for 30 data points each time.
+Please reminder it. Output the JSON file that contains adjusted emotion label distributions based on reference distributions and detailed reasons why you adjust the reference emotion distributions each word by each word. It's very important.
+It's very important that the JSON output file must contain the reference distributions and reasons. 
+It's very important that do not contain the reference distributions and words. 
+It's very important that use 15 to 20 words to explain the reason you want to change the reference distributions. 
+It's very important that the sum of label distributions equals 1.
+It's very importan to make sure that you explain the reasons for each word in descriptions.
