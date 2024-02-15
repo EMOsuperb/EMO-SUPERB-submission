@@ -23,8 +23,8 @@
 * All files can be downloaded by the [link](https://drive.google.com/file/d/15qjtVo46N944R5jRlFvKkIXBerwpjn3O/view?usp=sharing).
 * Unzip the .zip file and move the folder into the path (s3prl/s3prl/result/)
 
-## Training Models (```.sh```)
-* Use the command line. We take the SAIL-IEMOCAP corpus as an example.
+## Training Models 
+### Use the command line. We take the SAIL-IEMOCAP corpus as an example.
 ```
 for upstream in fbank; do 
  for test_fold in fold1 fold2 fold3 fold4 fold5; do
@@ -35,5 +35,10 @@ for upstream in fbank; do
   done;
  done;
 done
+```
+
+### Run All Experiments
+```
+bash run_all_dataset_and_fold.sh
 ```
 
