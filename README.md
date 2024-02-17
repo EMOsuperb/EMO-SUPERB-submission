@@ -9,7 +9,7 @@
       cd s3prl
       pip install -e .
       ```
-2. Move the ```emo-superb``` folder into the path ```s3prl/s3prl/downstream```
+2. Move the ```emo-superb``` folder into the path ```s3prl/s3prl/downstream``` and rename the folder as the "emotion_dev"
 3. Move the ```data folder``` into the path ```s3prl/s3prl/``` 
    * Download wav files into the folder for each database (e.g., ```data/IEMOCAP/Audios```)by submiting the EULA form for the six databases.
    * [IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)
