@@ -43,7 +43,7 @@ bash run_all_dataset_and_fold.sh
 ```
 
 # Relabel by ChatGPT-4
-The folder, named **```chatGPT```**, contains the promot for ChatGPT and the input and output files.
+The folder, named **```chatGPT```**, contains the promot (```Prompt.txt```) for ChatGPT and the input and output files.
 * The input files (```input_dev.csv``` and ```input_train.csv```) include the filen names, distributional primary emotions labels, and typed descriptions from annotators.
 * The output files (```output_dev.csv``` and ```output_train.csv```) consists of the filen names, adjusted distributional primary emotions labels, and reasons from ChatGPT.
 We encourage everyone to contribute their prompt and results.
