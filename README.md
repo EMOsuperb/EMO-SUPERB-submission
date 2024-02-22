@@ -11,7 +11,7 @@
       ```
 2. Move the ```emo-superb``` folder into the path ```s3prl/s3prl/downstream``` and rename the folder as the **"emotion_dev"**
 3. Move the ```data folder``` into the path ```s3prl/s3prl/``` 
-   * Download wav files into the folder for each database (e.g., ```data/IEMOCAP/Audios```)by submiting the EULA form for the six databases.
+   * Download WAV files into the folder for each database (e.g., ```data/IEMOCAP/Audios```)by submitting the EULA form for the six databases.
    * [IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)
    * [CREMA-D](https://github.com/CheyneyComputerScience/CREMA-D)
    * [IMPROV](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Improv.html)
@@ -44,8 +44,8 @@ bash run_all_dataset_and_fold.sh
 
 # Relabel by ChatGPT-4
 The folder, named **```chatGPT```**, contains the promot (```Prompt.txt```) for ChatGPT and the input and output files.
-* The input files (```input_dev.csv``` and ```input_train.csv```) include the filen names, distributional primary emotions labels, and typed descriptions from annotators.
-* The output files (```output_dev.csv``` and ```output_train.csv```) consists of the filen names, adjusted distributional primary emotions labels, and reasons from ChatGPT.
+* The input files (```input_dev.csv``` and ```input_train.csv```) include the file names, distributional primary emotions labels, and typed descriptions from annotators.
+* The output files (```output_dev.csv``` and ```output_train.csv```) consist of the file names, adjusted distributional primary emotions labels, and reasons from ChatGPT.
 We encourage everyone to contribute their prompt and results.
 
 
