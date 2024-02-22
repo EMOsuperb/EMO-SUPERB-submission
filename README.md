@@ -17,7 +17,7 @@
    * [MSP-IMPROV](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Improv.html)
    * [MSP-PODCAST](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html)
    * [BIIC-NNIME](https://biic.ee.nthu.edu.tw/open_resource_detail.php?id=61)
-   * [BIIC_PODCAST](https://biic.ee.nthu.edu.tw/open_resource_detail.php?id=63)
+   * [BIIC-PODCAST](https://biic.ee.nthu.edu.tw/open_resource_detail.php?id=63)
 # Train and Evaluation
 ## Trained Models
 * All files can be downloaded by the [link](https://drive.google.com/file/d/15qjtVo46N944R5jRlFvKkIXBerwpjn3O/view?usp=sharing).
