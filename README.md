@@ -3,7 +3,7 @@
 
  # Installation
  1. The EMO-SUPERB is developed based on [s3prl](https://github.com/s3prl/s3prl#installation) toolkit, please install it first.
-    * Please follow the [instrution](https://s3prl.github.io/s3prl/tutorial/installation.html#editable-installation) to do editable installation
+    * Please follow the [instructions](https://s3prl.github.io/s3prl/tutorial/installation.html#editable-installation) to do an editable installation.
       ```
       git clone https://github.com/s3prl/s3prl.git
       cd s3prl
