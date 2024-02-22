@@ -12,11 +12,11 @@
 2. Move the ```emo-superb``` folder into the path ```s3prl/s3prl/downstream``` and rename the folder as the **"emotion_dev"**
 3. Move the ```data folder``` into the path ```s3prl/s3prl/``` 
    * Download WAV files into the folder for each database (e.g., ```data/IEMOCAP/Audios```)by submitting the EULA form for the six databases.
-   * [SAIL-IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)
+   * [IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)
    * [CREMA-D](https://github.com/CheyneyComputerScience/CREMA-D)
-   * [MSP-IMPROV](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Improv.html)
-   * [MSP-PODCAST](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html)
-   * [BIIC-NNIME](https://biic.ee.nthu.edu.tw/open_resource_detail.php?id=61)
+   * [IMPROV](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Improv.html)
+   * [PODCAST](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html)
+   * [NNIME](https://biic.ee.nthu.edu.tw/open_resource_detail.php?id=61)
    * [BIIC-PODCAST](https://biic.ee.nthu.edu.tw/open_resource_detail.php?id=63)
 # Train and Evaluation
 ## Trained Models
