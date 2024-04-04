@@ -1,4 +1,4 @@
-# Overview
+![image](https://github.com/EMOsuperb/EMO-SUPERB-submission/assets/159752643/21d4b2ba-f23d-4d7b-87a1-7c70cb6f7b53)# Overview
  The EMO-SUPERB repository is for the anonymous submission to ACL 2024.
 
  # Installation
@@ -51,7 +51,7 @@ for upstream in fbank; do
  for test_fold in fold1 fold2 fold3 fold4 fold5; do
   for corpus in IEMOCAP; do
   # The default config is "downstream/emotion/config.yaml"
-  python3 run_downstream.py -n ${upstream}_${corpus}_$test_fold -m train -u ${upstream} -d emotion_dev -c downstream/emotion/config_${corpus}.yaml -o "config.downstream_expert.datarc.test_fold='$test_fold'"
+  python3 run_downstream.py -n ${upstream}_${corpus}_$test_fold -m train -u ${upstream} -d emotion_dev -c downstream/emotion_dev/config_${corpus}.yaml -o "config.downstream_expert.datarc.test_fold='$test_fold'"
   python3 run_downstream.py -m evaluate -e result/downstream/${upstream}_${corpus}_$test_fold/dev-best.ckpt
   done;
  done;
