@@ -24,6 +24,27 @@
 * Unzip the .zip file and move the folder into the path (s3prl/s3prl/result/)
 
 ## Training Models 
+
+### Upstream name
+| Index |        Model Name         |          Upstream Name          |
+| ----- |:-------------------------:|:-------------------------------:|
+| 01    |        WavLM        |           wavlm_large           |
+| 02    |   W2V2 R    | wav2vec2_large_lv60_cv_swbd_fsh |
+| 03    |     XLS-R-1B     |            xls_r_1b             |
+| 04    | Data2Vec-A |      data2vec_large_ll60k       |
+| 05    |       Hubert        |       hubert_large_ll60k        |
+| 06    |    W2V2    |       wav2vec2_large_960        |
+| 07    |        vq-wav2vec         |           vq_wav2vec            |
+| 08    |    W2V     |          wav2vec_large          |
+| 09    |       M CPC        |          modified_cpc           |
+| 10    |        DeCoAR 2	         |             decoar2             |
+| 11    |           TERA            |           tera_960hr            |
+| 12    |        Mockingjay         |        mockingjay_960hr         |
+| 13    |            NPC            |            npc_960hr            |
+| 14    |          VQ-APC           |          vq_apc_960hr           |
+| 15    |            APC            |            apc_960hr            |
+| 16    |           FBANK           |              fbank              |
+
 ### Use the command line. We take the SAIL-IEMOCAP corpus as an example.
 ```
 for upstream in fbank; do 
