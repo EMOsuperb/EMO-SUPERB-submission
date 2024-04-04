@@ -1,4 +1,4 @@
-![image](https://github.com/EMOsuperb/EMO-SUPERB-submission/assets/159752643/21d4b2ba-f23d-4d7b-87a1-7c70cb6f7b53)# Overview
+# Overview
  The EMO-SUPERB repository is for the anonymous submission to ACL 2024.
 
  # Installation
