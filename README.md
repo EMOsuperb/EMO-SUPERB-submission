@@ -1,5 +1,5 @@
 # Overview
- The EMO-SUPERB repository is for the anonymous submission to ACL 2024.
+ The EMO-SUPERB repository is for the anonymous submission to SLT 2024.
 
  # Installation
  1. The EMO-SUPERB is developed based on [s3prl](https://github.com/s3prl/s3prl#installation) toolkit, please install it first.
